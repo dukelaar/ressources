@@ -5,8 +5,15 @@
 # Formation AD Security 101
 
 * https://github.com/cfalta/adsec
+
+# Useful links 
+
 * https://beta.hackndo.com/
 * https://lolbas-project.github.io/
+
+# Tools 
+
+* https://github.com/microsoft/AttackSurfaceAnalyzer
 
 # File Transfer 
 
